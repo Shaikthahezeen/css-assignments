@@ -1,0 +1,16 @@
+h1{
+    background-color: bisque;
+    color: black;
+}
+p{
+    text-decoration: solid;
+    background-color: hotpink;
+    color: black;
+}
+ul{
+    text-decoration-color: blue;
+}
+ol{
+    background-color: aqua;
+    color: black;
+}

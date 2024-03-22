@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+    }
+    ul.custom{
+    list-style-image: url(Custom-bullet.png);
+    }
+    ul.Custom2{
+        list-style: none;
+    }
+    ul.custom2{
+        content:  "/2022";
+        color: #ff0000;
+        font-size: 1.5em;
+        margin-right: 0.5em;
+        
+    }
+    li:before{
+        content: "\25D8";
+        color: blue;
+        margin right: 20px;
+
+
+
+    }
+
+    
+</style>
+<body>
+    <h1>Custom</h1>
+    <ul>
+        <li>Biryani</li>
+        <li>Pulav</li>
+        <li> Mutton soup</li>
+    </ul>
+    <h2>List with Custom Bullet(image):</h2>
+    <ul class="Custom">
+        <li>Biryani</li>
+        <li>Pulav</li>
+        <li>Mutton soup</li>
+    </ul>
+</body>
+</html>
